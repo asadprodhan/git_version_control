@@ -33,7 +33,7 @@ cat /root/.ssh/id_rsa.pub
 
 
 
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD7RZbaHEEwCjdoIH4CXTY96532qJBBd4WaWBcMny4GP0DlDEIT3FAK13yR8eyhcHkqpRVb4xjbm7sbpeZwJPJ3gpidWtJNHmnZ2+uhPInObV3gN+ehElU+696JilacWve9yl7ctEtLUTot8IG6VF0KvqGuWtos3svIHQcLf2zM63bePgWAB2hvvQj6DJXumalER5BC9XuNu9vvPzwGfUCiFSXAT7MOJ7gWe1092ncl5phlxhFiCePPtxh/bRzU4jXhNsz9nokvVXcnmMvkTm7Bh6Cn9ufiXibCr94ZrggXERJataxw5JfJjZ/6GP008Hq5OIa4z90xkObhn1xf0RC/ root@rna-seq
+ssh-rsa XXXXX
 
 Paste this key to the GitHub new shh key section and authenticate
 
