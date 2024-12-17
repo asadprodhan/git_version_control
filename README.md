@@ -11,6 +11,9 @@
 Git Version Control is a system that can track changes in a document. Like the track change option in a microsoft word document. However, the Git Version Control and the Microsoft Track Change are different in their scopes, functionality, and purposes. See the comparision below:
 
 
+<br />
+
+
 | **Aspect**              | **Git Version Control**                                                                                      | **Microsoft Word Track Changes**                                                                |
 |:-------------------------|:------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
 | **Purpose and Scope**    | Tracks changes in code and project files across an entire repository.                                        | Tracks changes in a single text document (e.g., edits, comments, formatting).                  |
@@ -22,33 +25,31 @@ Git Version Control is a system that can track changes in a document. Like the t
 | **Branching and Merging**| Supports branching for parallel development and merging for integration of changes.                        | Does not support branching; all edits are applied directly to the document.                   |
 | **Offline Usage**        | Fully functional offline; all repositories are local copies.                                                | Requires the document and Track Changes settings to be available locally.                     |
 | **Primary Use Case**     | Best for software development, managing large codebases, and collaborative coding projects.                 | Best for collaborative text document editing, such as writing and reviewing reports.           |
+------------------------------------------------------------------------------------------------
+
+
+<br />
+
+
+## **How to use the Git Version Control in Windows computer**
+
+
+## Requirements
+
+- Visual Studio Code
+
+
+- GitHub account
+
+
+## FAQ
+
+
+### How to upload images from local computer to the GitHub repository?
 
 
 
-
-
-| **Aspect**              | **Git Version Control**                                                                                      | **Microsoft Word Track Changes**                                                                |
-|--------------------------|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| **Purpose and Scope**    | Tracks changes in code and project files across an entire repository.                                        | Tracks changes in a single text document (e.g., edits, comments, formatting).                  |
-| **Granularity**          | Tracks changes at the **line-level** across multiple files.                                                 | Tracks changes at the **character or word-level** in a single document.                        |
-| **Collaboration**        | Supports distributed collaboration with each user having a local copy of the repository.                    | Centralized editing; changes are visible within the shared document or during real-time edits. |
-| **Version History**      | Maintains a detailed history of all commits and allows reversion to any previous state.                     | Limited versioning tied to the document; relies on manual saves or cloud services for history. |
-| **File Types**           | Works with any file type, especially text-based files like code or configuration files.                     | Limited to `.docx` or compatible Word formats.                                                 |
-| **Conflict Resolution**  | Resolves merge conflicts programmatically or manually during file merges.                                   | Highlights conflicts inline for manual resolution by users.                                    |
-| **Branching and Merging**| Supports branching for parallel development and merging for integration of changes.                        | Does not support branching; all edits are applied directly to the document.                   |
-| **Offline Usage**        | Fully functional offline; all repositories are local copies.                                                | Requires the document and Track Changes settings to be available locally.                     |
-| **Primary Use Case**     | Best for software development, managing large codebases, and collaborative coding projects.                 | Best for collaborative text document editing, such as writing and reviewing reports.           |
-
-
-
-## **How to use the Git Version Control**
-
-
-
-## Windows Users
-
-
-## **Step 1: What does data visualisation do?**
+## **Step 1: Open a terminal in Visual Studio Code**
 
 # Checking existing ssh key
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys 
