@@ -76,6 +76,40 @@ git push -u origin main
 ```
 
 
+### How to display the image in README document 
+
+
+- Collect the image path from your GitHub repository by righ-clicking on the image and copying the link
+
+
+- Add the following add chunk to your README document
+
+
+<br />
+
+```
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/git_version_control/blob/main/vs_code_annot.PNG"
+ align="center" width=100% height=100% >   
+</p>
+<p align = center>
+Figure 1: Blastn database nt files.
+</p>
+```
+
+<br />
+
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/git_version_control/blob/main/vs_code_annot.PNG"
+ align="center" width=100% height=100% >   
+</p>
+<p align = center>
+Figure 1: Blastn database nt files.
+</p>
+
+
 
 
 ## **Step 1: Open a terminal in Visual Studio Code**
