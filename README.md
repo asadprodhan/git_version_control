@@ -36,16 +36,133 @@ Git Version Control is a system that can track changes in a document. Like the t
 
 ## Requirements
 
-- Visual Studio Code
+- `Download Visual Studio Code
 
 
-- GitHub account
+- Create a GitHub account
 
 
-## FAQ
+- Create a GitHub repository and name it git_version_control (for example) 
 
 
-### How to upload images from local computer to the GitHub repository?
+## **Open a terminal in Visual Studio Code**
+
+See an example below:
+
+
+<br />
+
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/git_version_control/blob/main/vs_code_annot.PNG"
+ align="center" width=100% height=100% >   
+</p>
+<p align = center>
+Figure 1: Writing a GitHub repository using VS Code.
+</p>
+
+
+## Step 1
+
+
+- Set GitBash in the terminal
+
+
+- Create a directory in your local computer
+
+
+- Initiate a GitHub repository
+
+
+```
+git init
+```
+
+
+```
+mkdir git_version_control
+```
+
+- Create a README file
+
+
+```
+touch README.md
+```
+
+
+## Step 2
+
+
+- Open the git_version_control directory that you have created in Step 1
+
+
+## Step 3
+
+
+- Open the README.md file by clicking on it
+
+
+## Step 4
+
+
+- Start writing your README doc and save by using ctrl-S
+
+
+## Step 5
+
+
+- Open a preview panel for your README markdown document
+
+
+## Step 6
+
+
+- Connect your local GitHub repo (git_version_control) to your online GitHub repo (git_version_control)
+
+
+```
+git remote set-url origin https://github.com/asadprodhan/git_version_control.git
+```
+
+
+- Check the status of your files
+
+
+```
+git status
+```
+
+
+- Stage the changes
+
+
+```
+git add .
+```
+
+
+- Commit the changes with a message
+
+
+```
+git commit -m "message"
+```
+
+
+- Push the changes to your online GitHub repository
+
+
+```
+git push -u origin main
+```
+
+
+
+# FAQ
+
+
+## How to upload images from local computer to the GitHub repository?
 
 
 - Add a specific image
@@ -76,7 +193,7 @@ git push -u origin main
 ```
 
 
-### How to display the image in README document 
+## How to display the image in README document 
 
 
 - Collect the image path from your GitHub repository by righ-clicking on the image and copying the link
@@ -98,6 +215,10 @@ Figure 1: Blastn database nt files.
 </p>
 ```
 
+
+The above code produces the following display.
+
+
 <br />
 
 <p align="center">
@@ -106,13 +227,13 @@ Figure 1: Blastn database nt files.
  align="center" width=100% height=100% >   
 </p>
 <p align = center>
-Figure 1: Blastn database nt files.
+Figure 1: Writing a GitHub repository using VS Code.
 </p>
 
 
 
 
-## **Step 1: Open a terminal in Visual Studio Code**
+
 
 # Checking existing ssh key
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys 
