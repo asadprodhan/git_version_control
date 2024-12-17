@@ -48,6 +48,35 @@ Git Version Control is a system that can track changes in a document. Like the t
 ### How to upload images from local computer to the GitHub repository?
 
 
+- Add a specific image
+
+
+```
+git add <image_file_name>
+```
+
+- Or add all changes
+
+```
+git add .
+```
+
+- Stage the changes
+
+```
+git commit -m "message"
+```
+
+
+- Push the changes to the online GitHub repository
+
+
+```
+git push -u origin main
+```
+
+
+
 
 ## **Step 1: Open a terminal in Visual Studio Code**
 
