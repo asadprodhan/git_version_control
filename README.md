@@ -117,47 +117,71 @@ touch README.md
 
 ## Step 6
 
+- Collect the URL of your online GitHub repo
+
+- Add the remote URL
+
+```
+git remote add origin https://github.com/asadprodhan/git_version_control.git 
+```
+
+- Then, verify by running
+
+```
+git remote -v
+```
+
+You will the URL that you have added above.
 
 - Connect your local GitHub repo (git_version_control) to your online GitHub repo (git_version_control)
-
 
 ```
 git remote set-url origin https://github.com/asadprodhan/git_version_control.git
 ```
 
 
-- Check the status of your files
+## Step 7
 
+
+- Check the status of your files
 
 ```
 git status
 ```
 
-
 - Stage the changes
-
 
 ```
 git add .
 ```
 
-
 - Commit the changes with a message
-
 
 ```
 git commit -m "message"
 ```
 
+## Step 7
+
+- Check existing branch
+
+```
+git branch
+```
+
+If it is "master", then change it to "main"
+
+```
+git branch -m master main
+```
 
 - Push the changes to your online GitHub repository
-
 
 ```
 git push -u origin main
 ```
 
-
+<br />
 
 # FAQ
 
