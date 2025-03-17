@@ -197,10 +197,32 @@ git branch -m master main
 git push -u origin main
 ```
 
+## Note
+
+If your push is rejected because the remote repository contains changes that your local repository doesn't have.
+
+Then, pull and push again like as follows
+
+
+```
+git pull --rebase origin main
+```
+
+
+```
+git push -u origin main
+```
+
+
+Or, force your push if you're sure that you don't need the remote changes
+
+```
+git push -f origin main
+```
+
 <br />
 
 # FAQ
-
 
 ## How to upload images from local computer to the GitHub repository?
 
@@ -231,33 +253,6 @@ git commit -m "message"
 ```
 git push -u origin main
 ```
-
-## Note
-
-If your push is rejected because the remote repository contains changes that your local repository doesn't have.
-
-Then, pull and push again like as follows
-
-
-```
-git pull --rebase origin main
-```
-
-
-```
-git push -u origin main
-```
-
-
-Or, force your push if you're sure that you don't need the remote changes
-
-```
-git push -f origin main
-```
-
-Only use this .
-
-
 
 ## How to display the image in README document 
 
