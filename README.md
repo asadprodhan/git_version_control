@@ -177,7 +177,7 @@ git add .
 git commit -m "message"
 ```
 
-## Step 7
+## Step 8
 
 - Check existing branch
 
